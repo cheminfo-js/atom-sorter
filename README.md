@@ -18,6 +18,12 @@ Callback allowing to sort chemical elements (atoms) in Hill order
 
 ```js
 const atomSorter = require('atom-sorter');
+
+let atoms = ['H', 'Cl', 'C', 'O', 'N', 'Br'];
+atoms.sort((a, b) => atomSorter(a, b));
+
+// ['C', 'H', 'Br', 'Cl', 'N', 'O']
+
 ```
 
 
