@@ -18,7 +18,7 @@ test('sort an array', () => {
 });
 
 test('sort an array HCl', () => {
-    let atoms = ['H', 'Cl'];
+    let atoms = ['Cl', 'H'];
     atoms.sort((a, b) => atomSorter(a, b));
     expect(atoms).toEqual(['H', 'Cl']);
 });
