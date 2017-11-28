@@ -15,6 +15,10 @@ test('sort an array', () => {
     let atoms = ['H', 'Cl', 'C', 'O', 'N', 'Br'];
     atoms.sort((a, b) => atomSorter(a, b));
     expect(atoms).toEqual(['C', 'H', 'Br', 'Cl', 'N', 'O']);
+});
 
-
+test('sort an array HCl', () => {
+    let atoms = ['H', 'Cl'];
+    atoms.sort((a, b) => atomSorter(a, b));
+    expect(atoms).toEqual(['H', 'Cl']);
 });
