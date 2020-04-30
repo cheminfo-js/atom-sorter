@@ -1,6 +1,6 @@
 {
   "name": "atom-sorter",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Callback allowing to sort chemical elements (atoms) in Hill order",
   "main": "./src/index.js",
   "files": [
@@ -29,12 +29,12 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "cheminfo-tools": "^1.20.1",
-    "codecov": "^3.0.0",
-    "eslint": "^4.12.0",
-    "eslint-config-cheminfo": "^1.8.0",
-    "eslint-plugin-no-only-tests": "^2.0.0",
+    "cheminfo-tools": "^1.23.3",
+    "codecov": "^3.6.5",
+    "eslint": "^4.19.1",
+    "eslint-config-cheminfo": "^1.20.1",
+    "eslint-plugin-no-only-tests": "^2.4.0",
     "jest": "^21.2.1",
-    "npm-run-all": "^4.1.2"
+    "npm-run-all": "^4.1.5"
   }
 }
